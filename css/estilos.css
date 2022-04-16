@@ -49,7 +49,7 @@ body {
 }
 
 .imgLogo {
-  width: 15%;
+  width: 25%;
 }
 
 @media only screen and (max-width: 993px) {
@@ -58,7 +58,6 @@ body {
     font-size: 25px;
     color: white;
     text-transform: uppercase;
-    line-height: 3px;
   }
 
   .home {
@@ -66,9 +65,19 @@ body {
     display: flex;
   }
 
+  .textoHomeCincuenta {
+    width: 50%;
+  }
+
   .argentina {
     width: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorTextoHome {
+    width: 100%;
+    display: flex;
     justify-content: center;
   }
 

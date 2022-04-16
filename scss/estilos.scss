@@ -59,7 +59,7 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
 }
 
 .imgLogo{
-    width: 15%;
+    width: 25%;
 }
 
 
@@ -77,7 +77,7 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
     font-size: 25px;
     color: $blanco;
     text-transform: uppercase;
-    line-height: 3px;
+
 }
 
 .home{
@@ -85,11 +85,21 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
     display: flex;
 }
 
+.textoHomeCincuenta{
+    width: 50%;
+}
+
 .argentina{
     width: 50%;
-    display: block;
+    display: flex;
     justify-content: center;
 
+}
+
+.contenedorTextoHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
