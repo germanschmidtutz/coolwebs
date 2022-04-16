@@ -111,6 +111,10 @@ body {
     display: flex;
     margin: auto;
   }
+
+  .paddingTop {
+    padding-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
