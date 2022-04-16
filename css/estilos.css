@@ -31,7 +31,7 @@ body {
 
   .h1 {
     font-family: "Akshar", sans-serif;
-    font-size: 45px;
+    font-size: 22px;
     color: white;
     text-transform: uppercase;
   }
@@ -70,7 +70,7 @@ body {
 @media only screen and (max-width: 993px) {
   .textoHome {
     font-family: "Akshar", sans-serif;
-    font-size: 32px;
+    font-size: 32gipx;
     color: white;
     text-transform: uppercase;
   }
@@ -107,7 +107,7 @@ body {
   }
 
   .mundo {
-    width: 35%;
+    width: 40%;
     display: flex;
     margin: auto;
   }
