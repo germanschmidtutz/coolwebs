@@ -15,13 +15,13 @@ body{
 
 @media only screen and (max-width: 993px) {
     .espacioArriba{
-        margin-top: 8vh;
+        margin-top: 5vh;
     }
     .masEspacioArriba{
         margin-top: 12vh;
     }
     .espacioAbajo{
-        margin-bottom: 8vh;
+        margin-bottom: 5vh;
     }
     .masEspacioAbajo{
         margin-bottom: 12vh;
@@ -32,7 +32,7 @@ body{
 
     .h1{
         font-family: 'Akshar', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         color: $blanco;
         text-transform: uppercase;
     }
@@ -87,7 +87,7 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
 
 .textoHome{
     font-family: 'Akshar', sans-serif;
-    font-size: 32gipx;
+    font-size: 15px;
     color: $blanco;
     text-transform: uppercase;
 
