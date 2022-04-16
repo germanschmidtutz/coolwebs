@@ -45,29 +45,29 @@ body {
     margin-bottom: 10vh;
   }
 }
-.navbar-dark {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, black, black, black, black, black, black, black, black, black, black, rgb(8, 185, 252));
-  text-transform: uppercase;
-}
-.navbar-dark .navbar-collapse {
-  justify-content: end !important;
-}
-.navbar-dark .nav-link {
-  display: flex;
-  justify-content: end;
-  color: white !important;
-}
-
-.navbar {
-  border-bottom: rgb(8, 185, 252) solid 3px;
-}
-
-.imgLogo {
-  width: 25%;
-}
-
 @media only screen and (max-width: 993px) {
+  .navbar-dark {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, black, black, black, black, black, black, black, black, black, black, rgb(8, 185, 252));
+    text-transform: uppercase;
+  }
+  .navbar-dark .navbar-collapse {
+    justify-content: end !important;
+  }
+  .navbar-dark .nav-link {
+    display: flex;
+    justify-content: end;
+    color: white !important;
+  }
+
+  .navbar {
+    border-bottom: rgb(8, 185, 252) solid 3px;
+  }
+
+  .imgLogo {
+    width: 25%;
+  }
+
   .textoHome {
     font-family: "Akshar", sans-serif;
     font-size: 15px;
