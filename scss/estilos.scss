@@ -17,11 +17,24 @@ body{
     .espacioArriba{
         margin-top: 8vh;
     }
+    .masEspacioArriba{
+        margin-top: 12vh;
+    }
     .espacioAbajo{
         margin-bottom: 8vh;
     }
+    .masEspacioAbajo{
+        margin-bottom: 12vh;
+    }
     .espacioAbajoHome{
         margin-bottom: 7vh;
+    }
+
+    .h1{
+        font-family: 'Akshar', sans-serif;
+        font-size: 45px;
+        color: $blanco;
+        text-transform: uppercase;
     }
 }
 
@@ -42,7 +55,7 @@ body{
 background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $negro, $negro, $negro, $negro, $negro, $celeste);
     text-transform: uppercase;
 
-    // ojo puede molestar con el que se abre solo
+  
     .navbar-collapse{
         justify-content: end !important;
     }
@@ -74,7 +87,7 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
 
 .textoHome{
     font-family: 'Akshar', sans-serif;
-    font-size: 25px;
+    font-size: 32px;
     color: $blanco;
     text-transform: uppercase;
 
@@ -101,9 +114,6 @@ background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $
     display: flex;
     justify-content: center;
 }
-
-
-
 
 .otroPais{
     width: 50%;

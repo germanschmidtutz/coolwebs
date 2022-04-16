@@ -13,12 +13,27 @@ body {
     margin-top: 8vh;
   }
 
+  .masEspacioArriba {
+    margin-top: 12vh;
+  }
+
   .espacioAbajo {
     margin-bottom: 8vh;
   }
 
+  .masEspacioAbajo {
+    margin-bottom: 12vh;
+  }
+
   .espacioAbajoHome {
     margin-bottom: 7vh;
+  }
+
+  .h1 {
+    font-family: "Akshar", sans-serif;
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
   }
 }
 @media only screen and (min-width: 994px) {
@@ -55,7 +70,7 @@ body {
 @media only screen and (max-width: 993px) {
   .textoHome {
     font-family: "Akshar", sans-serif;
-    font-size: 25px;
+    font-size: 32px;
     color: white;
     text-transform: uppercase;
   }
