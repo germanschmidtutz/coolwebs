@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+@media only screen and (max-width: 993px) {
+  .espacioArriba {
+    margin-top: 8vh;
+  }
+
+  .espacioAbajo {
+    margin-bottom: 8vh;
+  }
+
+  .espacioAbajoHome {
+    margin-bottom: 7vh;
+  }
+}
+@media only screen and (min-width: 994px) {
+  .espacioArriba {
+    margin-top: 10vh;
+  }
+
+  .espacioAbajo {
+    margin-bottom: 10vh;
+  }
+}
+.navbar-dark {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, black, black, black, black, black, black, black, black, black, black, rgb(8, 185, 252));
+  text-transform: uppercase;
+}
+.navbar-dark .navbar-collapse {
+  justify-content: end !important;
+}
+.navbar-dark .nav-link {
+  display: flex;
+  justify-content: end;
+  color: white !important;
+}
+
+.navbar {
+  border-bottom: rgb(8, 185, 252) solid 3px;
+}
+
+.imgLogo {
+  width: 15%;
+}
+
+@media only screen and (max-width: 993px) {
+  .textoHome {
+    font-family: "Akshar", sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3px;
+  }
+
+  .home {
+    width: 100%;
+    display: flex;
+  }
+
+  .argentina {
+    width: 50%;
+    display: block;
+    justify-content: center;
+  }
+
+  .otroPais {
+    width: 50%;
+  }
+
+  .banderaHome {
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
+
+  .mundo {
+    width: 35%;
+    display: flex;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
