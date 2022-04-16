@@ -13,30 +13,7 @@ body{
     background-color: $negro;
 }
 
-@media only screen and (max-width: 993px) {
-    .espacioArriba{
-        margin-top: 5vh;
-    }
-    .masEspacioArriba{
-        margin-top: 12vh;
-    }
-    .espacioAbajo{
-        margin-bottom: 5vh;
-    }
-    .masEspacioAbajo{
-        margin-bottom: 12vh;
-    }
-    .espacioAbajoHome{
-        margin-bottom: 7vh;
-    }
 
-    .h1{
-        font-family: 'Akshar', sans-serif;
-        font-size: 18px;
-        color: $blanco;
-        text-transform: uppercase;
-    }
-}
 
 @media only screen and (min-width: 994px) {
     .espacioArriba{
@@ -54,6 +31,32 @@ body{
 // celu
 
 @media only screen and (max-width: 993px) {
+
+// generales
+
+.espacioArriba{
+    margin-top: 5vh;
+}
+.masEspacioArriba{
+    margin-top: 12vh;
+}
+.espacioAbajo{
+    margin-bottom: 5vh;
+}
+.masEspacioAbajo{
+    margin-bottom: 12vh;
+}
+.espacioAbajoHome{
+    margin-bottom: 7vh;
+}
+
+.h1{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    color: $blanco;
+    text-transform: uppercase;
+}
+
 // navbar
 .navbar-dark{
     background: rgb(2,0,36);

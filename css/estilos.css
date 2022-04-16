@@ -8,6 +8,15 @@ body {
   background-color: black;
 }
 
+@media only screen and (min-width: 994px) {
+  .espacioArriba {
+    margin-top: 10vh;
+  }
+
+  .espacioAbajo {
+    margin-bottom: 10vh;
+  }
+}
 @media only screen and (max-width: 993px) {
   .espacioArriba {
     margin-top: 5vh;
@@ -31,21 +40,11 @@ body {
 
   .h1 {
     font-family: "Akshar", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-transform: uppercase;
   }
-}
-@media only screen and (min-width: 994px) {
-  .espacioArriba {
-    margin-top: 10vh;
-  }
 
-  .espacioAbajo {
-    margin-bottom: 10vh;
-  }
-}
-@media only screen and (max-width: 993px) {
   .navbar-dark {
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, black, black, black, black, black, black, black, black, black, black, rgb(8, 185, 252));
