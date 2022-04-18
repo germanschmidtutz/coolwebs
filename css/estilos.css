@@ -82,6 +82,10 @@ body {
     text-transform: uppercase;
   }
 
+  .espacioGrandeArribaHome {
+    margin-top: 25vh;
+  }
+
   .home {
     width: 100%;
     display: flex;
