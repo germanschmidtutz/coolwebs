@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
 
 $negro: black;
-$celeste: rgb(8,185,252) ;
+$celeste: rgba(0, 187, 255, 0.5) ;
 $blanco: white;
 
 
@@ -15,10 +15,17 @@ a{
     color: $blanco;
 }
 
+a:visited{
+    color:$blanco;
+  }
+
 body{
     background-color: $negro;
 }
 
+mark{
+    background-color: $celeste;
+}
 
 // para llevar a pc
 @media only screen and (min-width: 994px) {
@@ -71,10 +78,13 @@ body{
 
 .textoWeb{
     font-family: 'Akshar', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: $blanco;
     text-transform: uppercase;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   
 }
 
 // navbar
@@ -92,6 +102,10 @@ body{
         justify-content: end;
         color: white !important;
     }
+}
+
+.navbar-toggler{
+    border: $celeste solid 3px !important;
 }
 
 .navbar{
@@ -173,8 +187,28 @@ body{
     padding-top: 10px;
 }
 
-// fin home.html
+// fin index.html
 
+
+// ARG home.html
+
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    color: $blanco;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $celeste;
+    width: 60%;
+    box-shadow: 3px 3px 0px $blanco;
+}
+
+// ARG fin home.html
 
 
 }
