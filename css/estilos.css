@@ -22,6 +22,11 @@ mark {
   color: white;
 }
 
+.margenes {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 @media only screen and (min-width: 994px) {
   .espacioArriba {
     margin-top: 10vh;
@@ -59,6 +64,13 @@ mark {
   .h1 {
     font-family: "Akshar", sans-serif;
     font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .h1h1 {
+    font-family: "Akshar", sans-serif;
+    font-size: 25px;
     color: white;
     text-transform: uppercase;
   }

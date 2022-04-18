@@ -28,6 +28,11 @@ mark{
     color: $blanco;
 }
 
+.margenes{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 // para llevar a pc
 @media only screen and (min-width: 994px) {
 
@@ -73,6 +78,13 @@ mark{
 .h1{
     font-family: 'Akshar', sans-serif;
     font-size: 20px;
+    color: $blanco;
+    text-transform: uppercase;
+}
+
+.h1h1{
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
     color: $blanco;
     text-transform: uppercase;
 }
