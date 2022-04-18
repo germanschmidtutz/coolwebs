@@ -25,6 +25,7 @@ body{
 
 mark{
     background-color: $celeste;
+    color: $blanco;
 }
 
 // para llevar a pc
@@ -78,7 +79,7 @@ mark{
 
 .textoWeb{
     font-family: 'Akshar', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     color: $blanco;
     text-transform: uppercase;
     text-align: center;
@@ -106,6 +107,10 @@ mark{
 
 .navbar-toggler{
     border: $celeste solid 3px !important;
+}
+
+.navbar-dark .navbar-toggler{
+    color: $negro
 }
 
 .navbar{
@@ -209,6 +214,25 @@ mark{
 }
 
 // ARG fin home.html
+
+
+// peditupresupuesto.html
+
+form{
+    p{
+    font-family: 'Akshar', sans-serif !important;
+    color: $negro !important;
+    }
+    button{
+        font-family: 'Akshar', sans-serif !important;
+        color: $blanco !important;
+        
+    }
+    ::placeholder{color: $negro !important;}
+}
+
+
+// fin peditupresupuesto.html
 
 
 }
