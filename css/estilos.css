@@ -71,6 +71,10 @@ body {
     width: 25%;
   }
 
+  .imgIndex {
+    width: 50%;
+  }
+
   .textoHome {
     font-family: "Akshar", sans-serif;
     font-size: 15px;
