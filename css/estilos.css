@@ -85,6 +85,10 @@ mark {
     margin-right: 10px;
   }
 
+  .interlineado {
+    line-height: 30px;
+  }
+
   .navbar-dark {
     background-color: black !important;
     text-transform: uppercase;
