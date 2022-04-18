@@ -251,4 +251,39 @@ form{
 // fin peditupresupuesto.html
 
 
+// nuestraspaginas.html
+
+.contenedorPaginas{
+    display: block;
+    justify-content: center;
+}
+
+.paginas{
+    margin-left: 15%;
+    width: 70%;
+    height: 50vh;
+}
+
+.fotosPaginas{
+    width: 350px;
+    height: auto;
+    border: 3px solid $celeste;
+
+}
+
+.espacioArribaPaginas{
+    margin-top: 1vh;
+}
+
+.urlPaginas{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    color: $blanco;
+    text-transform: uppercase;
+}
+
+
+// fin nuestraspaginas.html
+
+
 }
