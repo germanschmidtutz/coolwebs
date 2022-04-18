@@ -9,13 +9,21 @@ $negro: black;
 $celeste: rgb(8,185,252) ;
 $blanco: white;
 
+
+a{
+    text-decoration: none;
+    color: $blanco;
+}
+
 body{
     background-color: $negro;
 }
 
 
-
+// para llevar a pc
 @media only screen and (min-width: 994px) {
+
+
     .espacioArriba{
         margin-top: 10vh;
     }
@@ -61,17 +69,24 @@ body{
     text-transform: uppercase;
 }
 
+.textoWeb{
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    color: $blanco;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 // navbar
 .navbar-dark{
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, $negro , $negro, $negro , $negro, $negro , $negro, $negro, $negro, $negro, $negro, $celeste);
+    background-color: $negro !important;
+
     text-transform: uppercase;
 
   
     .navbar-collapse{
         justify-content: end !important;
     }
-    // 
     .nav-link{
         display: flex;
         justify-content: end;
@@ -80,11 +95,15 @@ body{
 }
 
 .navbar{
-    border-bottom: $celeste solid 3px;
+    border-bottom: $celeste solid 1px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    color: $blanco;
+    text-transform: uppercase;
 }
 
 .imgLogo{
-    width: 25%;
+    width: 30%;
 }
 
 
@@ -95,7 +114,7 @@ body{
 // index.html
 
 .imgIndex{
-    width: 70%;
+    width: 65%;
 
 }
 
