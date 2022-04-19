@@ -113,13 +113,29 @@ mark {
   .navbar {
     border-bottom: rgba(0, 187, 255, 0.5) solid 1px;
     font-family: "Akshar", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-transform: uppercase;
   }
 
   .imgLogo {
     width: 30%;
+  }
+
+  footer {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border-top: rgba(0, 187, 255, 0.5) solid 1px;
+  }
+
+  .textoFooter {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Akshar", sans-serif;
+    font-size: 15px;
+    color: white;
   }
 
   .imgIndex {
@@ -218,7 +234,7 @@ mark {
   }
 
   .fotosPaginas {
-    width: 350px;
+    width: 200px;
     height: auto;
     border: 3px solid rgba(0, 187, 255, 0.5);
   }
