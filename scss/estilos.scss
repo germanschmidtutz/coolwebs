@@ -33,18 +33,6 @@ mark{
     margin-right: 30px;
 }
 
-// para llevar a pc
-@media only screen and (min-width: 994px) {
-
-
-    .espacioArriba{
-        margin-top: 10vh;
-    }
-    .espacioAbajo{
-        margin-bottom: 10vh;
-    }
-}
-
 // fin generales
 
 
@@ -155,7 +143,7 @@ footer{
 }
 
 .textoFooter{
-    margin-top: 15px;
+
     margin-bottom: 0px;
     font-family: 'Akshar', sans-serif;
     font-size: 15px;
@@ -169,7 +157,7 @@ footer{
 // index.html
 
 .imgIndex{
-    width: 65%;
+    width: 35%;
 
 }
 
@@ -265,6 +253,7 @@ form{
         
     }
     ::placeholder{color: $negro !important;}
+
 }
 
 
@@ -281,7 +270,7 @@ form{
 .paginas{
     margin-left: 15%;
     width: 70%;
-    height: 50vh;
+    height: 30vh;
 }
 
 .fotosPaginas{
@@ -301,9 +290,281 @@ form{
     color: $blanco;
     text-transform: uppercase;
 }
-
-
 // fin nuestraspaginas.html
+
+}
+
+// fin cel
+
+
+// inicio PC
+
+
+
+@media only screen and (min-width: 994px) {
+    // generales
+
+    .espacioArriba{
+        margin-top: 10vh;
+    }
+    .espacioAbajo{
+        margin-bottom: 10vh;
+    }
+
+    .masEspacioArriba{
+        margin-top: 9vh;
+    }
+
+    .masEspacioAbajo{
+        margin-bottom: 20vh;
+    }
+    .espacioAbajoHome{
+        margin-bottom: 7vh;
+    }
+    
+    .espacioGrandeArriba{
+        margin-top: 28vh;
+    }
+    
+    .h1{
+        font-family: 'Akshar', sans-serif;
+        font-size: 30px;
+        color: $blanco;
+        text-transform: uppercase;
+    }
+    
+    .h1h1{
+        font-family: 'Akshar', sans-serif;
+        font-size: 35px;
+        color: $blanco;
+        text-transform: uppercase;
+    }
+    
+    .textoWeb{
+        font-family: 'Akshar', sans-serif;
+        font-size: 25px;
+        color: $blanco;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
+    .interlineado{
+        line-height: 40px;
+    }
+    
+    // navbar
+    .navbar-dark{
+        background-color: $negro !important;
+    
+        text-transform: uppercase;
+    
+      
+        .navbar-collapse{
+            justify-content: end !important;
+        }
+        .nav-link{
+            display: flex;
+            justify-content: end;
+            color: white !important;
+        }
+    }
+    
+    .navbar-toggler{
+        border: $celeste solid 3px !important;
+    }
+    
+    .navbar-dark .navbar-toggler{
+        color: $negro
+    }
+    
+    .navbar{
+        border-bottom: $celeste solid 1px;
+        font-family: 'Akshar', sans-serif;
+        font-size: 20px;
+        color: $blanco;
+        text-transform: uppercase;
+    }
+    
+    .imgLogo{
+        width: 30%;
+    }
+    
+    
+    // fin navbar
+    
+    // footer
+    
+    footer{
+        width: 100%;
+        background-color: $negro;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        border-top: $celeste solid 1px;
+    }
+    
+    .textoFooter{
+    
+        margin-bottom: 0px;
+        font-family: 'Akshar', sans-serif;
+        font-size: 15px;
+        color: $blanco;
+    }
+    
+    // fin footer
+    
+    
+    
+    // index.html
+
+    .generalContenedor{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .imgIndex{
+        width: 25%;
+    }
+
+    .imgPags{
+        width: 18%;
+    }
+    
+    .textoHome{
+        font-family: 'Akshar', sans-serif;
+        font-size: 30px;
+        color: $blanco;
+        text-transform: uppercase;
+    
+    }
+    
+    .espacioGrandeArribaHome{
+        margin-top: 10vh;
+    }
+    
+    .home{
+        width: 100%;
+        display: flex;
+    }
+    
+    .textoHomeCincuenta{
+        width: 50%;
+    }
+    
+    .argentina{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .contenedorTextoHome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .otroPais{
+        width: 50%;
+    
+    }
+    
+    .banderaHome{
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+    
+    .mundo{
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+    
+    .paddingTop{
+        padding-top: 10px;
+    }
+    
+    // fin index.html
+    
+    
+    // ARG home.html
+    
+    .contenedorBoton{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .boton{
+        font-family: 'Akshar', sans-serif;
+        font-size: 25px;
+        color: $blanco;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: $celeste;
+        width: 50%;
+        box-shadow: 6px 6px 0px $blanco;
+    }
+    
+    // ARG fin home.html
+    
+    
+    // peditupresupuesto.html
+    
+    form{
+        p{
+        font-family: 'Akshar', sans-serif !important;
+        color: $negro !important;
+        }
+        button{
+            font-family: 'Akshar', sans-serif !important;
+            color: $blanco !important;
+            
+        }
+        ::placeholder{color: $negro !important;}
+      
+    }
+    
+    
+    // fin peditupresupuesto.html
+    
+    
+    // nuestraspaginas.html
+    
+    .contenedorPaginas{
+        display: block;
+        justify-content: center;
+    }
+    
+    .paginas{
+        margin-left: 15%;
+        width: 70%;
+        height: 50vh;
+    }
+    
+    .fotosPaginas{
+        width: 400px;
+        height: auto;
+        border: 3px solid $celeste;
+    
+    }
+    
+    .espacioArribaPaginas{
+        margin-top: 1vh;
+    }
+    
+    .urlPaginas{
+        font-family: 'Akshar', sans-serif;
+        font-size: 30px;
+        color: $blanco;
+        text-transform: uppercase;
+    }
+    // fin nuestraspaginas.html
 
 
 }
+
+
+// fin PC

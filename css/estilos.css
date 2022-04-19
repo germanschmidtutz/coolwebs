@@ -27,15 +27,6 @@ mark {
   margin-right: 30px;
 }
 
-@media only screen and (min-width: 994px) {
-  .espacioArriba {
-    margin-top: 10vh;
-  }
-
-  .espacioAbajo {
-    margin-bottom: 10vh;
-  }
-}
 @media only screen and (max-width: 993px) {
   .espacioArriba {
     margin-top: 5vh;
@@ -131,7 +122,6 @@ mark {
   }
 
   .textoFooter {
-    margin-top: 15px;
     margin-bottom: 0px;
     font-family: "Akshar", sans-serif;
     font-size: 15px;
@@ -139,7 +129,7 @@ mark {
   }
 
   .imgIndex {
-    width: 65%;
+    width: 35%;
   }
 
   .textoHome {
@@ -230,7 +220,7 @@ mark {
   .paginas {
     margin-left: 15%;
     width: 70%;
-    height: 50vh;
+    height: 30vh;
   }
 
   .fotosPaginas {
@@ -246,6 +236,228 @@ mark {
   .urlPaginas {
     font-family: "Akshar", sans-serif;
     font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 994px) {
+  .espacioArriba {
+    margin-top: 10vh;
+  }
+
+  .espacioAbajo {
+    margin-bottom: 10vh;
+  }
+
+  .masEspacioArriba {
+    margin-top: 9vh;
+  }
+
+  .masEspacioAbajo {
+    margin-bottom: 20vh;
+  }
+
+  .espacioAbajoHome {
+    margin-bottom: 7vh;
+  }
+
+  .espacioGrandeArriba {
+    margin-top: 28vh;
+  }
+
+  .h1 {
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .h1h1 {
+    font-family: "Akshar", sans-serif;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .textoWeb {
+    font-family: "Akshar", sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .interlineado {
+    line-height: 40px;
+  }
+
+  .navbar-dark {
+    background-color: black !important;
+    text-transform: uppercase;
+  }
+  .navbar-dark .navbar-collapse {
+    justify-content: end !important;
+  }
+  .navbar-dark .nav-link {
+    display: flex;
+    justify-content: end;
+    color: white !important;
+  }
+
+  .navbar-toggler {
+    border: rgba(0, 187, 255, 0.5) solid 3px !important;
+  }
+
+  .navbar-dark .navbar-toggler {
+    color: black;
+  }
+
+  .navbar {
+    border-bottom: rgba(0, 187, 255, 0.5) solid 1px;
+    font-family: "Akshar", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .imgLogo {
+    width: 30%;
+  }
+
+  footer {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border-top: rgba(0, 187, 255, 0.5) solid 1px;
+  }
+
+  .textoFooter {
+    margin-bottom: 0px;
+    font-family: "Akshar", sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+
+  .generalContenedor {
+    width: 70%;
+    margin: auto;
+  }
+
+  .imgIndex {
+    width: 25%;
+  }
+
+  .imgPags {
+    width: 18%;
+  }
+
+  .textoHome {
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .espacioGrandeArribaHome {
+    margin-top: 10vh;
+  }
+
+  .home {
+    width: 100%;
+    display: flex;
+  }
+
+  .textoHomeCincuenta {
+    width: 50%;
+  }
+
+  .argentina {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorTextoHome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .otroPais {
+    width: 50%;
+  }
+
+  .banderaHome {
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
+
+  .mundo {
+    width: 40%;
+    display: flex;
+    margin: auto;
+  }
+
+  .paddingTop {
+    padding-top: 10px;
+  }
+
+  .contenedorBoton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boton {
+    font-family: "Akshar", sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 187, 255, 0.5);
+    width: 50%;
+    box-shadow: 6px 6px 0px white;
+  }
+
+  form p {
+    font-family: "Akshar", sans-serif !important;
+    color: black !important;
+  }
+  form button {
+    font-family: "Akshar", sans-serif !important;
+    color: white !important;
+  }
+  form ::placeholder {
+    color: black !important;
+  }
+
+  .contenedorPaginas {
+    display: block;
+    justify-content: center;
+  }
+
+  .paginas {
+    margin-left: 15%;
+    width: 70%;
+    height: 50vh;
+  }
+
+  .fotosPaginas {
+    width: 400px;
+    height: auto;
+    border: 3px solid rgba(0, 187, 255, 0.5);
+  }
+
+  .espacioArribaPaginas {
+    margin-top: 1vh;
+  }
+
+  .urlPaginas {
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
     color: white;
     text-transform: uppercase;
   }
