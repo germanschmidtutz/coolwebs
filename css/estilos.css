@@ -293,6 +293,11 @@ mark {
     line-height: 40px;
   }
 
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
   .navbar-dark {
     background-color: black !important;
     text-transform: uppercase;
@@ -394,6 +399,11 @@ mark {
     width: 50%;
     display: flex;
     margin: auto;
+  }
+
+  .banderaHome:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
   }
 
   .mundo {

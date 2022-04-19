@@ -354,6 +354,11 @@ form{
     .interlineado{
         line-height: 40px;
     }
+
+    img:hover{
+    	transform: scale(1.1);
+        transition: transform .5s;
+    }
     
     // navbar
     .navbar-dark{
@@ -468,7 +473,6 @@ form{
     
     .otroPais{
         width: 50%;
-    
     }
     
     .banderaHome{
@@ -476,12 +480,18 @@ form{
         display: flex;
         margin: auto;
     }
+
+    .banderaHome:hover{
+        transform: scale(1.0);
+        transition: transform .5s;
+    }
     
     .mundo{
         width: 40%;
         display: flex;
         margin: auto;
     }
+
     
     .paddingTop{
         padding-top: 10px;
