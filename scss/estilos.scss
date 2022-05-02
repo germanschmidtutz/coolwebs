@@ -100,6 +100,29 @@ mark {
         line-height: 30px;
     }
 
+    .contenedorWp{
+        width: 10%;
+        position: fixed;
+        top: 78%;
+        left: 83%;
+        z-index: 1;
+        display: block;
+        justify-content: center;
+
+    }
+    .botonWp{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .textoBotonWp{
+        font-family: 'Akshar', sans-serif;
+        font-size: 11px;
+        color: $blanco;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
     // navbar
     .navbar-dark {
         background-color: $negro !important;
@@ -370,6 +393,33 @@ mark {
 
     .interlineado {
         line-height: 40px;
+    }
+
+    .contenedorWp{
+        width: 10%;
+        position: fixed;
+        top: 63%;
+        left: 88%;
+        z-index: 1;
+        display: block;
+        justify-content: center;
+
+    }
+    .botonWp{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .botonWp:hover{
+        width: 110%;
+    }
+
+    .textoBotonWp{
+        font-family: 'Akshar', sans-serif;
+        font-size: 25px;
+        color: $blanco;
+        text-transform: uppercase;
+        text-align: center;
     }
 
 
