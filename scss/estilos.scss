@@ -103,7 +103,7 @@ mark {
     .contenedorWp{
         width: 10%;
         position: fixed;
-        top: 78%;
+        top: 83%;
         left: 83%;
         z-index: 1;
         display: block;
@@ -111,17 +111,10 @@ mark {
 
     }
     .botonWp{
-        width: 100%;
+        width: 150%;
         margin-right: 20px;
     }
 
-    .textoBotonWp{
-        font-family: 'Akshar', sans-serif;
-        font-size: 11px;
-        color: $blanco;
-        text-transform: uppercase;
-        text-align: center;
-    }
 
     // navbar
     .navbar-dark {
@@ -187,6 +180,44 @@ mark {
 
 
     // index.html
+
+    .text {
+        font-size:28px;
+        font-family:helvetica;
+        font-weight:bold;
+        color:#71d90b;
+        text-transform:uppercase;
+      }
+      .parpadea {
+        
+        animation-name: parpadeo;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      
+        -webkit-animation-name:parpadeo;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+      }
+      
+      @-moz-keyframes parpadeo{  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+      
+      @-webkit-keyframes parpadeo {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+         100% { opacity: 1.0; }
+      }
+      
+      @keyframes parpadeo {  
+        0% { opacity: 1.0; }
+         50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
 
     .imgIndex {
         width: 35%;
@@ -273,6 +304,17 @@ mark {
 
 
     // peditupresupuesto.html
+
+    .contenedorWhatsapp{
+
+        width: 100%;
+    }
+
+    .imagenWp{
+        width: 20%;
+        margin-left: 40%;
+
+    }
 
     form {
         p {
@@ -587,6 +629,16 @@ mark {
 
 
     // peditupresupuesto.html
+
+    .contenedorWhatsapp{
+
+        width: 100%;
+    }
+
+    .imagenWp{
+        width: 20%;
+        margin-left: 40%;
+    }
 
     form {
         p {

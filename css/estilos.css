@@ -87,7 +87,7 @@ mark {
   .contenedorWp {
     width: 10%;
     position: fixed;
-    top: 78%;
+    top: 83%;
     left: 83%;
     z-index: 1;
     display: block;
@@ -95,16 +95,8 @@ mark {
   }
 
   .botonWp {
-    width: 100%;
+    width: 150%;
     margin-right: 20px;
-  }
-
-  .textoBotonWp {
-    font-family: "Akshar", sans-serif;
-    font-size: 11px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
   }
 
   .navbar-dark {
@@ -155,6 +147,58 @@ mark {
     color: white;
   }
 
+  .text {
+    font-size: 28px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #71d90b;
+    text-transform: uppercase;
+  }
+
+  .parpadea {
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  @-moz-keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .imgIndex {
     width: 35%;
   }
@@ -225,6 +269,15 @@ mark {
     background-color: rgba(0, 187, 255, 0.5);
     width: 60%;
     box-shadow: 3px 3px 0px white;
+  }
+
+  .contenedorWhatsapp {
+    width: 100%;
+  }
+
+  .imagenWp {
+    width: 20%;
+    margin-left: 40%;
   }
 
   form p {
@@ -479,6 +532,15 @@ mark {
     background-color: rgba(0, 187, 255, 0.5);
     width: 50%;
     box-shadow: 6px 6px 0px white;
+  }
+
+  .contenedorWhatsapp {
+    width: 100%;
+  }
+
+  .imagenWp {
+    width: 20%;
+    margin-left: 40%;
   }
 
   form p {
